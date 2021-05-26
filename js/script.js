@@ -2,7 +2,10 @@
 $(document).ready(function () {
     $('.page').fullpage({
         css3: true,
-        scrollingSpeed: 1300
+        scrollingSpeed: 1300,
+        dragAndMove: true,
+        animateAnchor: true,
+        autoScrolling: true,
     });
 });
 $(function () {
